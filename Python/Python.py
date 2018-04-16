@@ -7,7 +7,9 @@ import sys
 # Distance Sensor goes into port D4
 # Temperature and Humidity sensor goes into port D8
 # Light Sensor goes into port A2?
+# The accelerometer goes into any I2C port
 # SIG,NC,VCC,GND
+
 air_sensor = 0
 ultrasonic_ranger = 4
 dht11_port = 2
