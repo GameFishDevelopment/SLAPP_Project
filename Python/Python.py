@@ -22,9 +22,9 @@ while True:
         # Air Sensor
         sensor_value = grovepi.analogRead(air_sensor)
         if sensor_value <= 300:
-            air_quality = 'good'
+            air_quality = 'Fresh Air'
         else:
-            air_quality = 'bad'
+            air_quality = 'Polluted Air'
 
         print('Air Sensor Value',sensor_value)
         print('Air Quality',air_quality)
