@@ -7,6 +7,6 @@ $(document).ready(function() {
         $('#temperature').text(data.temp + " °C");
 //        $('#orientation').text(data.orientation);
 //        $('#vibration').text(data.vibration);
-//        $('#accelerometer').text(data.accelerometer);
+       $('#accelerometer').text(data.accelerometer);
     });
 });
