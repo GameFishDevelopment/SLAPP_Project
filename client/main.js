@@ -10,3 +10,9 @@ $(document).ready(function() {
        $('#accelerometer').text(data.accelerometer);
     });
 });
+
+function initMap() {
+    var kansasCity = {lat: 39.110298, lng: -94.581078};
+    var map = new google.maps.Map(document.getElementById('map'), { zoom: 8, center: kansasCity });
+    var marker = new google.maps.Marker({ position: kansasCity, map: map });
+}

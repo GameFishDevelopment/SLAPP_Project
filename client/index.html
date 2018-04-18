@@ -14,9 +14,16 @@
     </div>
     
     <div class="page-content">
+       
        <div class="map-box border">
-          <h3 class="filler-text">(map will be here)</h3>
-       </div>
+              <div class="card-title">
+                  <h3 class="card-title-text">GPS Location</h3>
+              </div>
+              <div class="card-content">
+                  <div id="map"></div>
+              </div>
+           </div>
+       
        <div class="sensor-cards" id="row1">
           
            <div class="sensor-info-card border">
@@ -45,9 +52,7 @@
                   <h4 id="humidity" class="sensor-data-text"></h4>
               </div>
            </div>
-           
-           
-           
+              
        </div>
        <div class="sensor-cards" id="row2">
            
@@ -80,6 +85,8 @@
       src="https://code.jquery.com/jquery-3.0.0.min.js"
       integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
       crossorigin="anonymous">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSjZiz-vAbHK1PJXG7gU6XhXuOSYQthG8&callback=initMap">
     </script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="main.js"></script>
