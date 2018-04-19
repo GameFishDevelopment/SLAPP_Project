@@ -12,8 +12,8 @@ div {
     padding: 10px 20px 10px 20px;
     background-color: white;
     color: black;
-    border-bottom: solid 5px #7fb8ff;
-    box-shadow: 0px 0px 5px #727272
+    border-bottom: solid 2px #dbdbdb;
+    box-shadow: 0px 0px 2px #727272;
 }
 
 .brand {
@@ -54,9 +54,9 @@ div {
 }
 
 .border {
-    border: solid 5px #7fb8ff;
+    border: solid 2px #dbdbdb;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px #727272
+    box-shadow: 0px 0px 2px #dbdbdb;
 }
 
 .sensor-cards {
@@ -74,7 +74,7 @@ div {
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: white;
 
 }
 
@@ -85,8 +85,8 @@ div {
     padding-top: 1px;
     padding-right: 1px;
     padding-left: 1px;
-    border-bottom: solid 5px #7fb8ff;
-    background-color: white;
+    border-bottom: solid 2px #dbdbdb;
+    background-color: #f9f9f9;
 }
 
 .card-content {
@@ -102,6 +102,6 @@ footer {
     background-color: #ededed;
     color: #b2b2b2;
     text-align: center;
-    box-shadow: inset 0px 0px 5px #727272;
+    box-shadow: inset 0px 0px 2px #dbdbdb;
 }
 
